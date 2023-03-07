@@ -1,1 +1,57 @@
-/* this is css file */
+*{
+    font-family: 'Montserrat', sans-serif;
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+.work-experience {
+    float: left;
+    background-color: #fae5d7;
+    display: flex;
+    align-items: center;
+    margin-left:480px;
+    position: relative;
+    top: 40px;
+}
+.job-title{
+    font-size: 25px;
+  }
+
+  .education{
+    float: left;
+    background-color: #fae5d7;
+    display: flex;
+    align-items: center;
+    margin-left:480px;
+    position: relative;
+    top: 50px;
+}
+
+img{
+    width: auto;
+    height: 250px;
+    border-radius: 60%;
+    position: relative;
+    top:-240px;
+    left:50px;
+    
+}
+.name {
+    font-size: 30px;
+    position: relative;
+    top:-250px;
+}
+.objective-text{
+    position: relative;
+    top:-270px;
+}
+.left-box{
+    background-color:#c19b88;
+    width: 25%;
+    height: 100vh;
+    position: relative;
+    z-index: 1;
+    left: 60px;
+}
+
+  
