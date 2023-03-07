@@ -5,7 +5,7 @@
     size: auto;
 }
 
-.work-experience {
+.skills-box {
     float: left;
     background-color: #fae5d7;
     display: flex;
@@ -14,6 +14,31 @@
     position: relative;
     top: 40px;
 }
+.skill-1,.skill-2,.skill-3,.skill-4{
+    margin:-15px;
+}
+.internship{
+    float: left;
+    background-color: #fae5d7;
+    display: flex;
+    align-items: center;
+    margin-left:452px;
+    position: relative;
+    top: 50px;
+}
+.intern-point-1,.intern-point-2,.intern-point-3{
+    margin:-25px;
+}
+
+/* .work-experience {
+    float: left;
+    background-color: #fae5d7;
+    display: flex;
+    align-items: center;
+    margin-left:452px;
+    position: relative;
+    top: 40px;
+} */
 
 .job-title{
     font-size: 25px;
@@ -26,7 +51,7 @@
     align-items: center;
     margin-left:452px;
     position: relative;
-    top: 50px;
+    top: 60px;
 }
 
 .image{
@@ -34,18 +59,8 @@
     height: 350px;
     border-radius: 60%;
     position: relative;
-    top:-535px;
     left:16px;
     
-}
- 
-.name {
-    font-size: 28px;
-    /* position: relative; */
-    /* top:-540px; */
-}
-.objective-text{
-    margin-top: -35px;
 }
 .left-box{
     background-color:#c19b88;
@@ -60,5 +75,15 @@
     position: relative;
     top: -450px;
 }
-
-  
+.name {
+    font-size: 36px;
+    top:-520px;
+    left: 18px;
+}
+.objective-text{
+    margin-top: -145px;
+    left:10px;
+}
+.sidebar-content{
+    top:-480px;
+}
