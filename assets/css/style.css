@@ -2,6 +2,7 @@
     font-family: 'Montserrat', sans-serif;
     box-sizing: border-box;
     padding: 10px;
+    size: auto;
 }
 
 .work-experience {
@@ -9,49 +10,55 @@
     background-color: #fae5d7;
     display: flex;
     align-items: center;
-    margin-left:480px;
+    margin-left:452px;
     position: relative;
     top: 40px;
 }
+
 .job-title{
     font-size: 25px;
-  }
+}
 
-  .education{
+.education{
     float: left;
     background-color: #fae5d7;
     display: flex;
     align-items: center;
-    margin-left:480px;
+    margin-left:452px;
     position: relative;
     top: 50px;
 }
 
-img{
+.image{
     width: auto;
-    height: 250px;
+    height: 350px;
     border-radius: 60%;
     position: relative;
-    top:-240px;
-    left:50px;
+    top:-535px;
+    left:16px;
     
 }
+ 
 .name {
-    font-size: 30px;
-    position: relative;
-    top:-250px;
+    font-size: 28px;
+    /* position: relative; */
+    /* top:-540px; */
 }
 .objective-text{
-    position: relative;
-    top:-270px;
+    margin-top: -35px;
 }
 .left-box{
     background-color:#c19b88;
-    width: 25%;
-    height: 100vh;
+    width: 35%;
+    height: 180vh;
     position: relative;
     z-index: 1;
-    left: 60px;
+    left: 20px;
+    border: 300px;
+}
+.image,.name,.objective-text,.sidebar-content{
+    position: relative;
+    top: -450px;
 }
 
   
