@@ -3,22 +3,32 @@
     box-sizing: border-box;
     padding: 10px;
     size: auto;
+    
 }
 
 .skills-box {
     float: left;
+    height: auto;
+    width:125.5vh;
     background-color: #fae5d7;
     display: flex;
     align-items: center;
     margin-left:452px;
     position: relative;
     top: 40px;
+
 }
 .skill-1,.skill-2,.skill-3,.skill-4{
     margin:-15px;
 }
+.skills-description{
+    position: relative;
+    left:130px;
+}
 .internship-box{
     float: left;
+    height: auto;
+    width:125vh;
     background-color: #fae5d7;
     display: flex;
     align-items: center;
@@ -26,12 +36,26 @@
     position: relative;
     top: 50px;
 }
-.intern-point-1,.intern-point-2,.intern-point-3{
-    margin:-25px;
+.intern-year{
+    position: relative;
+    top:-30px;
 }
+.internship-description{
+    position: relative;
+    right:-30px;
+}
+.intern-year{
+    list-style: none;
+    font-weight: bold;
+    position: relative;
+    top: 2px;
+}
+
 
 .project-box{
     float: left;
+    height: 35vh;
+    width:125vh;
     background-color: #fae5d7;
     display: flex;
     align-items: center;
@@ -39,21 +63,21 @@
     position: relative;
     top: 60px;
     size: 130px;
+    
+}
+.project{
+    position: relative;
+    left:10vh;
+}
+.project-title{
+    position: relative;
+    top:10px;
 }
 .project-description{
     position: relative;
-    top:-45px;
+    top:-10px;
 }
 
-/* .work-experience {
-    float: left;
-    background-color: #fae5d7;
-    display: flex;
-    align-items: center;
-    margin-left:452px;
-    position: relative;
-    top: 40px;
-} */
 
 .job-title{
     font-size: 25px;
@@ -61,6 +85,8 @@
 
 .education{
     float: left;
+    height: 35.5vh;
+    width:125vh;
     background-color: #fae5d7;
     display: flex;
     align-items: center;
@@ -80,7 +106,7 @@
 .left-box{
     background-color:#c19b88;
     width: 35%;
-    height: 167vh;
+    height: 166.5vh;
     position: relative;
     z-index: 1;
     left: 20px;
@@ -89,12 +115,12 @@
 
 .image,.name,.objective-text,.sidebar-content{
     position: relative;
-    top: -720px;
+    top: -895px;
 }
 .name {
     font-size: 36px;
     position: relative;
-    top:-790px;
+    top:-970px;
     left: 18px;
 }
 
@@ -107,12 +133,12 @@
 }
 .contact-heading{
     position: relative;
-    top:-240px;
+    top:-430px;
 }
 .contact-number,.email-id,.github,.twitter-id{
     position: relative;
     margin:-20px;
-    top:-240px;
+    top:-430px;
     left:10px;
     color: black;
 }
